@@ -5,6 +5,13 @@
   text-align: center;
 }
 
+/* ユーザー情報下ボタン */
+
+.btn-users-show {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
 /* ユーザー勤怠情報テーブル */
 
 #table-attendances {
@@ -12,11 +19,10 @@
     vertical-align: middle;
     text-align: center;
   }
-
-td {
-  vertical-align: middle;
-  text-align: center;
- }
+  td {
+    vertical-align: middle;
+    text-align: center;
+  }
 }
 
 /* 入力フォーム */
@@ -40,9 +46,9 @@ td {
 /* ユーザー一覧ページ */
 
 #table-users {
-  td{
+  td {
     vertical-align: middle;
-  }
+  }  
 }
 
 /* 基本情報編集モーダルウインドウ */
